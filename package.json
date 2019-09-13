@@ -1,0 +1,32 @@
+{
+  "name": "overwatch-stat",
+  "version": "0.0.1",
+  "description": "You can get Player Battle Tag Only by playername",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wonderlandpark",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wonderlandpark/overwatch-stat.git"
+  },
+  "keywords": [
+    "overwatch",
+    "stat",
+    "battle.net",
+    "api"
+  ],
+  "bugs": {
+    "url": "https://github.com/wonderlandpark/overwatch-stat/issues"
+  },
+  "homepage": "https://github.com/wonderlandpark/overwatch-stat#readme"
+}
