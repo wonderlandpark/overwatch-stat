@@ -1,6 +1,6 @@
 /**
  * @author wonderlandpark
- * @version 0.0.3
+ * @version 0.0.4
  * @license MIT
  * @copyright Copyright (c) 2019 wonderlandpark
  * @github https://github.com/wonderlandpark/wonder-lang
@@ -30,6 +30,15 @@ const request = require('request')
             })
         })
     }
+
+/**
+ * get Player Profile by BattleTag
+ * @param {String} battletag BattleTag
+ * @param {String} platform Platform Onlt pc supported
+ * @param {String} region Region asia/us/eu
+ * 
+ * @returns {Object} return Object of Profile
+ */
     exports.getProfile= async (battletag, platform, region) => {
         if(!battletag||!platform||!region) throw new Error('Required Field is empty.')
         if(!['us','asia','eu'].indexOf(platform)) throw new Error('Unsupported Region')
