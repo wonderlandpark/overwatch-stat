@@ -76,7 +76,7 @@ exports.getPlaytime = async (battletag, platform, region) => {
           }}, (err,res,body) => {
             if(err) reject(err)
             const json = JSON.parse(body)
-            resolve({competitive : json.competitiveStats.careerStats.allHeroes.game.timePlayed,quickPlay : json.quickPlayStats.careerStats.allHeroes.game.timePlayed})
+            resolve({competitive : json.competitiveStats.careerStats.allHeroes.game.timePlayed+':00',quickPlay : json.quickPlayStats.careerStats.allHeroes.game.timePlayed})
 
         })
     })
