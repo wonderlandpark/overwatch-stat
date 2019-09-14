@@ -1,6 +1,6 @@
 const ostat = require('../')
 
-ostat.getInfo('호날두랑일본여행').then(items =>  {
+ostat.getInfo('아무거나#33898').then(items =>  {
     items.forEach(i=>{
         
         console.log('BattleTag : ' + 

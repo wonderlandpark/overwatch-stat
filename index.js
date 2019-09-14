@@ -20,7 +20,7 @@ const request = require('request')
     exports.getInfo = async (playername) => {
         let res = null;
         return new Promise(async (resolve, reject) => {
-            request( {url : encodeURI('https://playoverwatch.com/ko-kr/search/account-by-name/'+playername),
+            request( {url : encodeURI('https://playoverwatch.com/ko-kr/search/account-by-name/'+playername).replace(/\#/, '%23'),
             headers: {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
               }}, (err,res,body) => {
