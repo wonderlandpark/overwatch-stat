@@ -1,6 +1,6 @@
 /**
  * @author wonderlandpark
- * @version 0.0.4
+ * @version 0.0.6
  * @license MIT
  * @copyright Copyright (c) 2019 wonderlandpark
  * @github https://github.com/wonderlandpark/wonder-lang
