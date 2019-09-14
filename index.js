@@ -1,10 +1,10 @@
 /**
  * @author wonderlandpark
- * @version 0.0.6
+ * @version 0.1.1
  * @license MIT
  * @copyright Copyright (c) 2019 wonderlandpark
- * @github https://github.com/wonderlandpark/wonder-lang
- * @see https://github.com/wonderlandpark/wonder-lang/master/README.md
+ * @github https://github.com/wonderlandpark/overwatch-stat
+ * @see https://github.com/wonderlandpark/overwatch-stat/master/README.md
  */
 
 const request = require('request')
@@ -90,7 +90,7 @@ exports.getPlaytime = async (battletag, platform, region) => {
  * 
  * @returns {Object} return stats
  */
-exports.getPlaytime = async (battletag, platform, region) => {
+exports.getStat = async (battletag, platform, region) => {
     if(!battletag||!platform||!region) throw new Error('Required Field is empty.')
     if(!['us','asia','eu'].indexOf(platform)) throw new Error('Unsupported Region')
     if(platform !== 'pc') throw new Error('UnSupported Platfrom')
