@@ -62,7 +62,7 @@ const request = require('request')
  * @param {String} platform Platform Onlt pc supported
  * @param {String} region Region asia/us/eu
  * 
- * @returns {Object} return HH:MM:SS 
+ * @returns {Object} return Time values
  */
 exports.getPlaytime = async (battletag, platform, region) => {
     if(!battletag||!platform||!region) throw new Error('Required Field is empty.')
@@ -77,6 +77,31 @@ exports.getPlaytime = async (battletag, platform, region) => {
             if(err) reject(err)
             const json = JSON.parse(body)
             resolve({competitive : json.competitiveStats.careerStats.allHeroes.game.timePlayed+':00',quickPlay : json.quickPlayStats.careerStats.allHeroes.game.timePlayed})
+
+        })
+    })
+}
+
+/**
+ * get Player Complete stats
+ * @param {String} battletag OW urlName 
+ * @param {String} platform Platform Onlt pc supported
+ * @param {String} region Region asia/us/eu
+ * 
+ * @returns {Object} return stats
+ */
+exports.getPlaytime = async (battletag, platform, region) => {
+    if(!battletag||!platform||!region) throw new Error('Required Field is empty.')
+    if(!['us','asia','eu'].indexOf(platform)) throw new Error('Unsupported Region')
+    if(platform !== 'pc') throw new Error('UnSupported Platfrom')
+    let res = null;
+    return new Promise(async (resolve, reject) => {
+        request( {url : encodeURI(`https://ow-api.com/v1/stats/${platform}/${region}/${battletag}/complete`),
+        headers: {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+          }}, (err,res,body) => {
+            if(err) reject(err)
+            resolve(JSON.parse(body))
 
         })
     })
