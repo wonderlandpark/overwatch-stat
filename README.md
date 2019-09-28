@@ -45,9 +45,3 @@ ostat.getPlaytime('Eazyhoon-11402' , 'pc', 'asia')
 |---|---|
 
 
-| Discord : `wonderlandpark#0001`<br><br>![wonderlandpark](https://images-ext-1.discordapp.net/external/4frDYmyzoZMuV--zY7Q0k03_ivPJDLq0PnYBxX9B6WI/https/cdn.discordapp.com/avatars/285185716240252929/a_1f46428b3b326727fbf5fcd5d87c9482.gif?size=256) | Team Wonder_Bot Support<br><br>[![wonderbotsupport](https://discordapp.com/api/guilds/470028725287780352/embed.png?style=banner2)](https://discord.wonderbot.xyz)
-|---|---|
-<br>
-
-|원더랜드 WonderLand (Discord)<br><br>환상의 나라 원더랜드<br><br>[원더랜드](https://discord.gg/y6Yqeav)  | 원더(개발자) 의 개인 홈페이지<br><br>[바로가기](https://dev.wonderbot.xyz)
-|---|---|
