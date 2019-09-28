@@ -11,7 +11,7 @@
 ## Install
 
 ```
-npm install --save overwatch-s
+npm install --save overwatch-stat
 ```
 
 Example Usage:
