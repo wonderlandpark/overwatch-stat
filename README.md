@@ -18,7 +18,7 @@ Example Usage:
 ```js
 const ostat = require('overwatch-stat')
 
-ostat.getInfo('아무거나#33898').then(items =>  {
+ostat.getInfo('아무거나').then(items =>  {
     items.forEach(i=>{
         
         console.log('BattleTag : ' + 
