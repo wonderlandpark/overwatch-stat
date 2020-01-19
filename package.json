@@ -1,6 +1,6 @@
 {
   "name": "overwatch-stat",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "You can get Player Battle Tag Only by playername",
   "main": "index.js",
   "scripts": {
