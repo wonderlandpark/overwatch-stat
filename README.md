@@ -41,9 +41,10 @@ ostat.getPlaytime('Eazyhoon-11402' ,'asia', 'pc)
 ### .getInfo(playername)
 
 > Search Players' Battletag/level/platform/protfile public setting
-> | PARAMETER | TYPE | DESCRIPTION | EXAMPLE
-> |---|---|---|---|
-> |playername|String|Player's Nickname or BattleTag|`Username`, `Username#123456` |
+
+ | PARAMETER | TYPE | DESCRIPTION | EXAMPLE
+ |---|---|---|---|
+ |playername|String|Player's Nickname or BattleTag|`Username`, `Username#123456` |
 > **Returns**: Array (of Players)
 
 #### Example
@@ -91,11 +92,12 @@ ostat.getInfo('Overwatch').then(items => console.log(items))
 ### .getProfile(battletag, region, platfrom)
 
 > Get Player's Profile
-> | PARAMETER | TYPE | DESCRIPTION | EXAMPLE
-> |---|---|---|---|
-> |battletag|String|Player's Battle Tag|`Username#123456`,`Username-123456` |
-> | region | String | Player's Region (asia/us/eu) | `asia` |
-> | platform | String | Player's platform (pc etc.) | `pc` |
+
+| PARAMETER | TYPE | DESCRIPTION | EXAMPLE
+|---|---|---|---|
+|battletag|String|Player's Battle Tag|`Username#123456`,`Username-123456` |
+| region | String | Player's Region (asia/us/eu) | `asia` |
+| platform | String | Player's platform (pc etc.) | `pc` |
 > **Returns**: Object
 #### Example
 
@@ -182,11 +184,12 @@ ostat.getProfile('OVERWATCH#21123','us', 'pc').then(r=>console.log(r))
 ### .getPlaytime(battletag, region, platfrom)
 
 > Get Player's PlayTime
-> | PARAMETER | TYPE | DESCRIPTION | EXAMPLE
-> |---|---|---|---|
-> |battletag|String|Player's Battle Tag|`Username#123456`,`Username-123456` |
-> | region | String | Player's Region (asia/us/eu) | `asia` |
-> | platform | String | Player's platform (pc etc.) | `pc` |
+> 
+| PARAMETER | TYPE | DESCRIPTION | EXAMPLE
+|---|---|---|---|
+|battletag|String|Player's Battle Tag|`Username#123456`,`Username-123456` |
+| region | String | Player's Region (asia/us/eu) | `asia` |
+| platform | String | Player's platform (pc etc.) | `pc` |
 > **Returns**: Object
 
 #### Example
@@ -204,11 +207,12 @@ ostat.getPlaytime('OVERWATCH#21123').then(items => console.log(items))
 ### .getStat(battletag, region, platfrom)
 
 > Get Player's PlayTime
-> | PARAMETER | TYPE | DESCRIPTION | EXAMPLE
-> |---|---|---|---|
-> |battletag|String|Player's Battle Tag|`Username#123456`,`Username-123456` |
-> | region | String | Player's Region (asia/us/eu) | `asia` |
-> | platform | String | Player's platform (pc etc.) | `pc` |
+> 
+| PARAMETER | TYPE | DESCRIPTION | EXAMPLE
+|---|---|---|---|
+|battletag|String|Player's Battle Tag|`Username#123456`,`Username-123456` |
+| region | String | Player's Region (asia/us/eu) | `asia` |
+| platform | String | Player's platform (pc etc.) | `pc` |
 > **Returns**: Object
 
 #### Example
