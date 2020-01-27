@@ -386,7 +386,7 @@ ostat.getStat('OVERWATCH#21123').then(items => console.log(items))
 
 ```
 
-[Return Example](https://ow-api.com/v1/stats/pc/us/OVERWATCH-21123/complete)
+[Full Returned Value](https://ow-api.com/v1/stats/pc/us/OVERWATCH-21123/complete)
 
 
 ## Developer, Support Server, Useful Link
