@@ -1,6 +1,6 @@
 /**
  * @author wonderlandpark
- * @version 0.1.4
+ * @version 0.1.5
  * @license MIT
  * @copyright Copyright (c) 2019 wonderlandpark
  * @github https://github.com/wonderlandpark/overwatch-stat
