@@ -4,8 +4,9 @@
 [![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/overwatch-stat)
 [![NPM version](https://badge.fury.io/js/overwatch-stat.svg)](https://www.npmjs.com/package/overwatch-stat)
 ![MIT](https://img.shields.io/dub/l/vibe-d.svg)
-[![ad](https://img.shields.io/npm/dt/overwatch-stat.svg )](https://www.npmjs.com/package/wonderlangpark)
+[![ad](https://img.shields.io/npm/dt/overwatch-stat.svg )](https://www.npmjs.com/package/overwatch-stat)
 [![Discord](https://discordapp.com/api/guilds/512553485766492171/embed.png)](https://invite.gg/wonderbot)
+
 
 ## Introducing
 
