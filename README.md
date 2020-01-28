@@ -32,7 +32,7 @@ ostat.getInfo('Overwatch').then(items =>  {
 
         )
     })
-ostat.getPlaytime('Eazyhoon-11402' ,'asia', 'pc)
+ostat.getPlaytime('Eazyhoon-11402' ,'asia', 'pc')
 .then(a=>console.log(a))
 })  
 ```

@@ -1,10 +1,10 @@
 {
   "name": "overwatch-stat",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Gets Player's Battle Tag Only by playername",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "push" : "git push && npm publish"
   },
   "author": "wonderlandpark",
   "license": "MIT",
