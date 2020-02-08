@@ -7,7 +7,6 @@
 [![ad](https://img.shields.io/npm/dt/overwatch-stat.svg )](https://www.npmjs.com/package/overwatch-stat)
 [![Discord](https://discordapp.com/api/guilds/512553485766492171/embed.png)](https://invite.gg/wonderbot)
 
-
 ## Introducing
 
 This package is base on OVERWATCH's Official API at [here](https://playoverwatch.com/en-us/search)
