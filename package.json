@@ -1,6 +1,6 @@
 {
   "name": "overwatch-stat",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Gets Player's Battle Tag Only by playername",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,5 @@
   "bugs": {
     "url": "https://github.com/wonderlandpark/overwatch-stat/issues"
   },
-  "homepage": "https://github.com/wonderlandpark/overwatch-stat#readme",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "homepage": "https://github.com/wonderlandpark/overwatch-stat#readme"
 }

@@ -24,9 +24,7 @@ const headerOption = {
         return new Promise(async (resolve, reject) => {
             request( {url : encodeURI('https://playoverwatch.com/ko-kr/search/account-by-name/'+playername).replace(/\#/, '%23'),
             headers: headerOption}, (err,res,body) => {
-                console.log(body)
                 if(err) reject(err)
-                console.log(body)
                 resolve(JSON.parse(body))
 
             })
