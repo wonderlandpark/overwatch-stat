@@ -391,6 +391,6 @@ ostat.getStat('OVERWATCH#21123').then(items => console.log(items))
 
 ## Developer, Support Server, Useful Link
 
-| Discord : `wonderlandpark#0001`<br><br>![wonderlandpark](https://cdn.discordapp.com/avatars/285185716240252929/f50a084aaa45c57699c3dba1b7846122.png?size=256) | Team Wonder_Bot Support<br><br>[![wonderbotsupport](https://discordapp.com/api/guilds/470028725287780352/embed.png?style=banner2)](https://discord.wonderbot.xyz)
+| Discord : `wonderlandpark#0001`<br><br>![wonderlandpark](https://cdn.discordapp.com/avatars/285185716240252929/f50a084aaa45c57699c3dba1b7846122.png?size=256) | Team Wonder_Bot Support<br><br>[![wonderbotsupport](https://discordapp.com/api/guilds/470028725287780352/embed.png?style=banner2)](https://invite.gg/wonderbot)
 |---|---|
 |원더랜드 WonderLand (Discord)<br><br>환상의 나라 원더랜드<br><br>[원더랜드](https://discord.gg/y6Yqeav)  | 원더(개발자) 의 개인 홈페이지<br><br>[바로가기](https://dev.wonderbot.xyz)|
