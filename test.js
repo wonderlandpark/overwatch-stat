@@ -1,4 +1,4 @@
-const ostat = require('../')
+const ostat = require('./')
 
 ostat.getInfo('아무거나#33898').then(items =>  {
     items.forEach(i=>{
@@ -11,7 +11,7 @@ ostat.getInfo('아무거나#33898').then(items =>  {
 
         )
     })
-ostat.getPlaytime('Eazyhoon-11402' , 'pc', 'asia')
+ostat.getPlaytime('Eazyhoon-11402' ,'asia', 'pc')
 .then(a=>console.log(a))
 })
 

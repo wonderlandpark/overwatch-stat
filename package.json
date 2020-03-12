@@ -1,10 +1,10 @@
 {
   "name": "overwatch-stat",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "description": "Gets Player's Battle Tag Only by playername",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "push" : "git push && npm publish"
+    "push": "git push && npm publish"
   },
   "author": "wonderlandpark",
   "license": "MIT",
@@ -14,7 +14,9 @@
   "directories": {
     "test": "test"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "docma": "^3.2.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wonderlandpark/overwatch-stat.git"
